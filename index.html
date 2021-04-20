@@ -5,12 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>To-do list</title>
+    <title>To-do saraksts</title>
 </head>
 <body>
   <div>
-      <h1>To-do list</h1>
-      <button id="newActivity">Add activity</button>
+      <h1>To-do saraksts</h1>
+      <button id="newTask">Pievienot uzdevumu</button>
+  </div>
+
+  <div id="popUp">
+      <form id="form">
+        <input type="text" id="uzdevums" placeholder="Uzdevums">
+        <input type="text" id="termiņš"  placeholder="Termiņš">
+        <button type="submit" id="pievienotUzdevumu">Pievienot</button>
+      </form>
   </div>
     <script src="script.js"></script>
 </body>
