@@ -1,5 +1,15 @@
-console.log("JavaScript is working!")
+console.log("JavaScript is working!");{
 
-document.getElementById("newActivity").addEventListener('click', () => {
-    console.log("Poga nospiesta!");
-})
+}
+
+
+// formas paslēpšana //
+
+function myFunction() {
+    var x = document.getElementById("popUp");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
